@@ -2,10 +2,25 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/RuiCoreSci/flask-restful/badge.svg?branch=master)](https://coveralls.io/github/RuiCoreSci/flask-restful?branch=master) &nbsp; [![codebeat badge](https://codebeat.co/badges/2c118356-0bab-4888-87a1-43acc91e9c72)](https://codebeat.co/projects/github-com-ruicoresci-flask-restful-master) &nbsp; ![python3.9](https://img.shields.io/badge/language-python3.9-blue.svg) &nbsp; ![framework](https://img.shields.io/badge/framework-flask--restful-blue) &nbsp; ![issues](https://img.shields.io/github/issues/RuiCoreSci/flask-restful) ![stars](https://img.shields.io/github/stars/RuiCoreSci/flask-restful) &nbsp; ![license](https://img.shields.io/github/license/RuiCoreSci/flask-restful)
 
+> Maintenance note: this is a legacy/reference backend template. I keep it public because it documents earlier REST API architecture work: resource routing, unified response objects, exception handling, model boundaries, migrations, tests, and Docker-based local setup.
+
 * This is a web backend project based on the ```flask-restful```, coding in ```python3.9```.
 * You can treat it as a template to **learn web-framework** or just simply **a start to use python** writing web project.
 * This project uses **Typing** for typing hint.
 * This project uses **Unittest** for testing.
+
+## Why This Repository Is Still Useful
+
+Although newer projects may prefer FastAPI or a more modern service template, this repository remains a concrete example of backend engineering concerns that still matter:
+
+- consistent API response shape
+- centralized exception handling
+- request/query models separated from response models
+- ORM-backed database models and Alembic migrations
+- Docker-first local environment setup
+- test coverage around resource behavior
+
+It is best read as an architecture/reference project rather than a greenfield recommendation for every new backend.
 
 ## Table of Contents
 
